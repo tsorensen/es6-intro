@@ -3,7 +3,7 @@ ECMAScript 6
 
 ### What is ECMAScript?
 
-ECMAScript is the specification and language standard for JavaScript.  It is formally known as EMCA-262.  It is defined by ECMA International and more specifically the TC39 (Technical Committee) within ECMA.  The committee consists of a representative from each browser vendor and other parties that have an interest in the specification.
+ECMAScript is the specification and language standard for JavaScript.  It is formally known as <a href="http://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank">EMCA-262</a>.  It is defined by ECMA International and more specifically the TC39 (Technical Committee) within ECMA.  The committee consists of a representative from each browser vendor and other parties that have an interest in the specification.
 
 The people on the committee are in charge of making new features, additions, and also standardizing the next version of the language.  
 
@@ -175,7 +175,7 @@ function greeting(message, name = 'Anonymous') {
 }
 ```
 
-###### Template Strings
+### Template Strings
 
 In ES6, some syntactic sugar was added for constructing strings.  Similar to string interpolation in Ruby, Python, etc.
 
@@ -185,7 +185,7 @@ var name = “John”;
 var pet = “dog”;
 
 var greeting = 'Hello ' + name + ', how is your ' + pet + '?';
-console.log(greeting);
+console.log(greeting); //Hello John, how is your dog?
 ```
 ###### ES6 
 ```JavaScript
@@ -193,19 +193,19 @@ var name = "John";
 var pet = “dog”;
  
 var greeting = 'Hello ${name}, how is your ${pet}?';
-console.log(greeting);
+console.log(greeting); //Hello John, how is your dog?
 ```
 
 ## Resources 
 
 * Popular Transpilers (<a href="https://babeljs.io/" target="_blank">BabelJS</a>, <a href="https://github.com/google/traceur-compiler" target="_blank">Traceur</a>)
-* Christophe Coenraets <a href="http://ccoenraets.github.io/es6-tutorial/" target="_blank">ES6 tutorial</a>
-* Luke Hoban <a href="https://github.com/lukehoban/es6features" target="_blank">ES6 Features</a>
-* Sencha - <a href="https://www.sencha.com/blog/toward-modern-web-apps-with-ecmascript-6-2/" target="_blank">Modern web apps with ES6</a>
+* <a href="http://ccoenraets.github.io/es6-tutorial/" target="_blank">Christophe Coenraets ES6 tutorial</a>
+* <a href="https://github.com/lukehoban/es6features" target="_blank">Luke Hoban ES6 Features</a>
+* <a href="https://www.sencha.com/blog/toward-modern-web-apps-with-ecmascript-6-2/" target="_blank">Sencha - Modern web apps with ES6</a>
 * <a href="http://es6-features.org/#DefaultParameterValues" target="_blank">es6-features.org</a>
 * <a href="https://en.wikipedia.org/wiki/ECMAScript#4th_Edition_.28abandoned.29" target="_blank">ECMAScript on Wikipedia</a> 
 * <a href="http://www.ecma-international.org/" target="_blank">ECMA International</a>
-* ECMA International <a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank">ES6 Draft</a> 
-* CodeUtopia - <a href="http://codeutopia.net/blog/2015/01/06/es6-what-are-the-benefits-of-the-new-features-in-practice/" target="_blank">article on ES6 features</a> 
+* <a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank">ECMA International ES6 Draft</a> 
+* <a href="http://codeutopia.net/blog/2015/01/06/es6-what-are-the-benefits-of-the-new-features-in-practice/" target="_blank">CodeUtopia - article on ES6 features</a> 
 * <a href="http://kangax.github.io/compat-table/es6/" target="_blank">ES6 Compatibility Table</a> 
 
