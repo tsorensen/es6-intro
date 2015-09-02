@@ -5,7 +5,7 @@ ECMAScript 6
 
 ECMAScript is the specification and language standard for JavaScript.  It is formally known as <a href="http://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank">EMCA-262</a>.  It is defined by ECMA International and more specifically the TC39 (Technical Committee) within ECMA.  The committee consists of a representative from each browser vendor and other parties that have an interest in the specification.
 
-The people on the committee are in charge of making new features, additions, and also standardizing the next version of the language.  
+The people on the committee are in charge of making new features, additions, and also standardizing the next version of the language specification.  
 
 | Editions      | Release Year  |
 | ------------- |:-------------:|
