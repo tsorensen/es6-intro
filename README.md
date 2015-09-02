@@ -145,7 +145,7 @@ var double = function(num1, num2) {
 	return num1 * num2;
 }
 
-console.log(double(2, 2)); //4
+console.log(squared(2, 2)); //4
 ```
 
 ###### ES6
@@ -154,7 +154,7 @@ var reflect = value => value;
 
 var double = (num1, num2) => num1 * num2;
 
-console.log(double(2, 2)); //4
+console.log(squared(2, 2)); //4
 ```
 
 ### Default Parameters
