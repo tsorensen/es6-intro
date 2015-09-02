@@ -141,7 +141,7 @@ var reflect = function(value) {
 	return value;
 }
 
-var double = function(num1, num2) {
+var squared = function(num1, num2) {
 	return num1 * num2;
 }
 
@@ -152,7 +152,7 @@ console.log(squared(2, 2)); //4
 ```JavaScript
 var reflect = value => value;
 
-var double = (num1, num2) => num1 * num2;
+var squared = (num1, num2) => num1 * num2;
 
 console.log(squared(2, 2)); //4
 ```
