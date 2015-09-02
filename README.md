@@ -52,8 +52,8 @@ const PI = 3.141593;
 console.log(PI > 3.0); //true
 
 const COLOR = {
-    name: “Red”,
-    hexValue: “#FF0000”
+    name: "Red",
+    hexValue: "#FF0000"
 };
 ```
 
@@ -83,9 +83,9 @@ The new syntax for creating objects from variables is simpler and quicker.
 
 ###### ES5
 ```JavaScript
-var firstName = “John”;
-var lastName = “Smith”;
-var email = “john@site.com”;
+var firstName = "John";
+var lastName = "Smith";
+var email = "john@site.com";
 
 var info = {
     firstName: firstName,
@@ -96,9 +96,9 @@ var info = {
 
 ######ES6
 ```JavaScript
-var firstName = “John”;
-var lastName = “Smith”;
-var email = “john@site.com”;
+var firstName = "John";
+var lastName = "Smith";
+var email = "john@site.com";
 
 var fullName = {firstName, lastName, email};
 ```
@@ -109,7 +109,7 @@ Deconstructing also has a new syntax that is quicker.
 
 ###### ES5
 ```JavaScript
-var colors = [“red”, “green”, “blue”];
+var colors = ["red", "green", "blue"];
 
 var primary = colors[0];
 var secondary = colors[1];
@@ -122,7 +122,7 @@ console.log(tertiary);  //blue
 
 ###### ES6
 ```JavaScript
-var colors = [“red”, “green”, “blue”];
+var colors = ["red", "green", "blue"];
 
 var [primary, secondary, tertiary] = colors;
 
@@ -181,19 +181,19 @@ In ES6, some syntactic sugar was added for constructing strings.  Similar to str
 
 ###### ES5
 ```JavaScript
-var name = “John”;
-var pet = “dog”;
+var name = "John";
+var time = "afternoon";
 
-var greeting = 'Hello ' + name + ', how is your ' + pet + '?';
-console.log(greeting); //Hello John, how is your dog?
+var greeting = 'Hello ' + name + ', how are you this ' + time + '?';
+console.log(greeting); //Hello John, how are you this afternoon?
 ```
 ###### ES6 
 ```JavaScript
 var name = "John";
-var pet = “dog”;
+var time = "afternoon";
  
-var greeting = 'Hello ${name}, how is your ${pet}?';
-console.log(greeting); //Hello John, how is your dog?
+var greeting = 'Hello ${name}, how are you this ${time}?';
+console.log(greeting); //Hello John, how are you this afternoon?
 ```
 
 ## Resources 
