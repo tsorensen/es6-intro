@@ -77,7 +77,7 @@ for(let i = 0; i < 10; i++) {
 console.log(i) //error not defined
 ```
 
-### Creating objects from variables 
+### Creating objects from variables
 
 The new syntax for creating objects from variables is simpler and quicker.
 
@@ -90,7 +90,7 @@ var email = "john@site.com";
 var info = {
     firstName: firstName,
     lastName: lastName,
-    email: email 
+    email: email
 }
 ```
 
@@ -141,20 +141,20 @@ var reflect = function(value) {
 	return value;
 }
 
-var squared = function(num1, num2) {
+var times = function(num1, num2) {
 	return num1 * num2;
 }
 
-console.log(squared(2, 2)); //4
+console.log(times(2, 2)); //4
 ```
 
 ###### ES6
 ```JavaScript
 var reflect = value => value;
 
-var squared = (num1, num2) => num1 * num2;
+var times = (num1, num2) => num1 * num2;
 
-console.log(squared(2, 2)); //4
+console.log(times(2, 2)); //4
 ```
 
 ### Default Parameters
@@ -187,25 +187,24 @@ var time = "afternoon";
 var greeting = 'Hello ' + name + ', how are you this ' + time + '?';
 console.log(greeting); //Hello John, how are you this afternoon?
 ```
-###### ES6 
+###### ES6
 ```JavaScript
 var name = "John";
 var time = "afternoon";
- 
-var greeting = 'Hello ${name}, how are you this ${time}?';
+
+var greeting = `Hello ${name}, how are you this ${time}?`;
 console.log(greeting); //Hello John, how are you this afternoon?
 ```
 
-## Resources 
+## Resources
 
 * Popular Transpilers (<a href="https://babeljs.io/" target="_blank">BabelJS</a>, <a href="https://github.com/google/traceur-compiler" target="_blank">Traceur</a>)
 * <a href="http://ccoenraets.github.io/es6-tutorial/" target="_blank">Christophe Coenraets ES6 tutorial</a>
 * <a href="https://github.com/lukehoban/es6features" target="_blank">Luke Hoban ES6 Features</a>
 * <a href="https://www.sencha.com/blog/toward-modern-web-apps-with-ecmascript-6-2/" target="_blank">Sencha - Modern web apps with ES6</a>
 * <a href="http://es6-features.org/#DefaultParameterValues" target="_blank">es6-features.org</a>
-* <a href="https://en.wikipedia.org/wiki/ECMAScript#4th_Edition_.28abandoned.29" target="_blank">ECMAScript on Wikipedia</a> 
+* <a href="https://en.wikipedia.org/wiki/ECMAScript#4th_Edition_.28abandoned.29" target="_blank">ECMAScript on Wikipedia</a>
 * <a href="http://www.ecma-international.org/" target="_blank">ECMA International</a>
-* <a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank">ECMA International ES6 Draft</a> 
-* <a href="http://codeutopia.net/blog/2015/01/06/es6-what-are-the-benefits-of-the-new-features-in-practice/" target="_blank">CodeUtopia - article on ES6 features</a> 
-* <a href="http://kangax.github.io/compat-table/es6/" target="_blank">ES6 Compatibility Table</a> 
-
+* <a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank">ECMA International ES6 Draft</a>
+* <a href="http://codeutopia.net/blog/2015/01/06/es6-what-are-the-benefits-of-the-new-features-in-practice/" target="_blank">CodeUtopia - article on ES6 features</a>
+* <a href="http://kangax.github.io/compat-table/es6/" target="_blank">ES6 Compatibility Table</a>
