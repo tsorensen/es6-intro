@@ -94,7 +94,7 @@ var info = {
 }
 ```
 
-######ES6
+###### ES6
 ```JavaScript
 var firstName = "John";
 var lastName = "Smith";
